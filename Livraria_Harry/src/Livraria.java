@@ -3,7 +3,8 @@ import java.util.Arrays;
 
 
 /**
- *
+ * O desconto é aplicado apenas em conjuntos de livros diferentes, sendo que conjuntos d eno máximo 5 livros.
+ * O código calcula o melhor desconta
  * @author Gabriel Carlesso
  */
 public class Livraria extends javax.swing.JFrame {
@@ -26,12 +27,12 @@ public class Livraria extends javax.swing.JFrame {
     Arrays.sort(books);
     
     total=0;
-    for(int book: books){
+    for(int book: books){                // Calcula o valor cheio do preço dos livrvos, sem o desconto
       total += book * 42; 
     }
     ValorLabel.setText("R$"+total+",00");
     
-    for(int i =0 ; i<5 ;i++){
+    for(int i =0 ; i<5 ;i++){            // Separa nos conjuntos com diferentes porecentagem de desconto
         desconto[i]=0;
     }
     while(books[6] != 0){
@@ -53,7 +54,7 @@ public class Livraria extends javax.swing.JFrame {
     
 
     
-    soma_desconto = 42 * ( 0.05*desconto[1]*2 + 0.10*desconto[2]*3 + 0.15*desconto[3]*4 + 0.2*desconto[4]*5 );
+    soma_desconto = 42 * ( 0.05*desconto[1]*2 + 0.10*desconto[2]*3 + 0.15*desconto[3]*4 + 0.2*desconto[4]*5 );  // Calcula o valor de desconto
     DescontoLabel.setText("-R$"+String.format("%.2f",soma_desconto));
 
     
