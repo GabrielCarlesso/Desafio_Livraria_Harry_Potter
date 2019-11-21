@@ -7,17 +7,25 @@ Uma livraria contém 7 títulos distintos e possui um esquema de descontos que l
 Preço de um título qualquer: R$ 42,00
 
 Descontos:
+
 2 livros - 5%
+
 3 livros - 10%
+
 4 livros - 15%
+
 5 livros - 20%
 
 Quanto custa?
 
 2 cópias do primeiro livro
+
 2 cópias do segundo livro
+
 2 cópias do terceiro livro
+
 1 cópia do quarto livro
+
 1 cópia do quinto livro
 
 Resposta: R$ 268,80
