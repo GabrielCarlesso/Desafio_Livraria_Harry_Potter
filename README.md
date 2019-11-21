@@ -1,5 +1,5 @@
 # Desafio_Livraria_Harry_Potter
-Livraria do Harry Potter
+# Livraria do Harry Potter
 Uma livraria contém 7 títulos distintos e possui um esquema de descontos que leva em consideração se é o mesmo título ou não. O problema consiste em calcular o melhor desconto para o cliente.
 Preço de um título qualquer: R$ 42,00
 Descontos:
